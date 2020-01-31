@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a549df6-33e0-4cf0-8df0-311423280add" name="Default Changelist" comment="" />
+    <list default="true" id="2a549df6-33e0-4cf0-8df0-311423280add" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoListUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +85,9 @@
       <updated>1580349969108</updated>
       <workItem from="1580349972461" duration="20045000" />
       <workItem from="1580427366196" duration="3691000" />
-      <workItem from="1580435918060" duration="12797000" />
+      <workItem from="1580435918060" duration="13546000" />
+      <workItem from="1580513027254" duration="89000" />
+      <workItem from="1580514178258" duration="478000" />
     </task>
     <servers />
   </component>
@@ -94,22 +103,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580377507465" />
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580446199827">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom" timestamp="1580480348898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580446199827" />
-    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580446199826">
+    <state width="1344" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580480348898" />
+    <state width="1344" height="174" key="GridCell.Tab.0.center" timestamp="1580480348898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580446199826" />
-    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580446199826">
+    <state width="1344" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580480348898" />
+    <state width="1344" height="174" key="GridCell.Tab.0.left" timestamp="1580480348898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580446199826" />
-    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580446199827">
+    <state width="1344" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580480348898" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right" timestamp="1580480348898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580446199827" />
+    <state width="1344" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580480348898" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1580359465944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

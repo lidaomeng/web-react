@@ -2,7 +2,7 @@ import React from "react";
 import { Input, Button, List } from 'antd';
 
 /*
-无状态组件不UI组件性能更好！
+无状态组件比UI组件性能更好！
  */
 const TodoListUI = (props) => {
     return (
