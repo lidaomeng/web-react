@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "axios": "^0.19.2",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react-transition-group": "^4.3.0"
   }
 }
