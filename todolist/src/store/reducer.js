@@ -1,21 +1,32 @@
+import { CHANGE_INPUT_VALUE, ADD_LIST_ITEM, DELETE_LIST_ITEM } from './actionTypes';
+
 const defaultState = {
     inputValue: '',
     list: []
 };
 
 export default (state = defaultState, action) => {
-    if (action.type === 'change_input_value') {
+    /*
+    input事件
+     */
+    if (action.type === CHANGE_INPUT_VALUE) {
         const newState = JSON.parse(JSON.stringify(state));
         newState.inputValue = action.value;
         return newState;
     }
-    if (action.type === 'add_list_item') {
+    /*
+    添加list-item事件
+     */
+    if (action.type === ADD_LIST_ITEM) {
         const newState = JSON.parse(JSON.stringify(state));
         newState.list.push(newState.inputValue);
         newState.inputValue = '';
         return newState;
     }
-    if (action.type === 'delete_list_item') {
+    /*
+    删除list-item事件
+     */
+    if (action.type === DELETE_LIST_ITEM) {
         const newState = JSON.parse(JSON.stringify(state));
         newState.list.splice(action.index, 1);
         return newState;
