@@ -1,30 +1,32 @@
-import React, { Component } from "react";
+import React from "react";
 import {connect} from 'react-redux';
 
-class TodoList extends Component{
-    render() {
-        return (
+/*
+1.无状态组件 -> 2.UI组件 -> 3.容器组件
+ */
+const TodoList = (props) => {
+    const { inputValue, list, changeInputValue, handleClick, handleItemDelete } = props;
+    return (
+        <div>
             <div>
-                <div>
-                    <input value={this.props.inputValue} onChange={this.props.changeInputValue}/>
-                    <button onClick={this.props.handleClick}>提交</button>
-                </div>
-                <ul>
-                    {
-                        this.props.list.map((item, index) => {
-                            return (
-                                <li
-                                    key={index} onClick={() => {this.props.handleItemDelete(index)}}>
-                                    {item}
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
+                <input value={inputValue} onChange={changeInputValue}/>
+                <button onClick={handleClick}>提交</button>
             </div>
-        )
-    }
-}
+            <ul>
+                {
+                    list.map((item, index) => {
+                        return (
+                            <li
+                                key={index} onClick={() => {handleItemDelete(index)}}>
+                                {item}
+                            </li>
+                        )
+                    })
+                }
+            </ul>
+        </div>
+    )
+};
 
 /*
 属性
@@ -64,4 +66,7 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
+/*
+导出容器组件
+ */
 export default connect(mapStateToProps, mapDispatchToProps)(TodoList);
