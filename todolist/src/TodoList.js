@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import 'antd/dist/antd.css';
 import store from "./store";
-import { getTodoList, getInputChangeAction, getAddItemAction, getDeleteItemAction } from './store/actionCreators';
+import { getInputChangeAction, getAddItemAction, getDeleteItemAction, getInitList } from './store/actionCreators';
 import TodoListUI from './TodoListUI';
 
 class TodoList extends Component{
@@ -28,17 +28,11 @@ class TodoList extends Component{
         )
     }
 
+    /*
+    使用redux-saga中间件分发action
+     */
     componentDidMount() {
-        /*
-        axios获取后台接口数据
-         */
-        // axios.get('/api/todolist').then((res) => {
-        //     const data = res.data;
-        //     const action = initListAction(data);
-        //     store.dispatch(action);
-        // })
-
-        const action = getTodoList();
+        const action = getInitList();
         store.dispatch(action);
     }
 
